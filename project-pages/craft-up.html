@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thomas Anderson - Game Designer Portfolio - Craft-Up</title>
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css"> -->
+    <script src="https://kit.fontawesome.com/caee14acb5.js" crossorigin="anonymous"></script>
+    <link href="../styles/my-bulma-project.css" type="text/css" rel="stylesheet" />
+    <link href="../styles/default-styles.css" type="text/css" rel="stylesheet" />
+    <link rel="apple-touch-icon" sizes="180x180" href="../favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../favicon/favicon-16x16.png">
+    <link rel="manifest" href="../favicon/site.webmanifest">
+</head>
+
+<body class="has-background-grey-dark">
+    <nav class="navbar is-primary is-fixed-top">
+        <!-- logo/brand -->
+        <div class="navbar-brand">
+            <a class="navbar-burger" id="burger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </a>
+        </div>
+        <div class="navbar-menu has-background-grey-light" id="nav-links">
+            <div class="navbar-start">
+                <a class="navbar-item is-size-5 is-hoverable has-text-light" href="../index.html">
+                    Home
+                </a>
+                <a class="navbar-item is-size-5 has-text-weight-bold has-text-white" href="../projects.html">
+                    Projects
+                </a>
+                <a class="navbar-item is-size-5 is-hoverable has-text-light" href="../about.html">
+                    About
+                </a>
+            </div>
+        </div>
+    </nav>
+    <main class="pt-6">
+        <div>
+            <p class="is-size-3 has-text-centered title-font">
+                Thomas Anderson
+            </p>
+            <hr class="has-background-primary title-line">
+            <p class="is-size-1 has-text-centered title-font">
+                Craft-Up
+            </p>
+        </div>
+        <div class="columns is-desktop is-centered is-vcentered is-multiline py-6">
+            <!--Row 1-->
+            <div class="column is-two-thirds-desktop">
+                <div class="box is-shadowless has-background-grey-light project-page-content-element">
+                    <div class="hero is-large p-2">
+                        <div class="hero-head">
+                            <div class="py-2 is-size-3 has-text-centered title-font">
+                                Summary
+                            </div>
+                            <p class="is-size-5">
+                                Craft-Up is a top-down survival-craft game, where you must explore the world to find
+                                resources in order to craft gear. Craft-Up was developed by a team of 4, including
+                                myself. The game was created using Monogame, and was in development for four months To
+                                make quick progress on the game, the team used Git to allow for the team members to work
+                                simultaneously.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="column is-one-third-desktop has-text-centered">
+                <img class="project-page project-page-content-element"
+                    src="../images/project-pages/craft-up/craft-up-title.png" alt="Craft-Up title screen">
+            </div>
+            <!--Row 2-->
+            <div class="column is-one-third-desktop has-text-centered">
+                <img class="project-page project-page-content-element"
+                    src="../images/project-pages/craft-up/craft-up-gameplay.png" alt="Craft-Up title screen">
+            </div>
+            <div class="column is-two-thirds-desktop has-text-centered">
+                <div class="box is-shadowless has-background-grey-light project-page-content-element">
+                    <div class="hero is-large p-2">
+                        <div class="hero-head">
+                            <div class="py-2 is-size-3 has-text-centered title-font">
+                                Enemies
+                            </div>
+                            <p class="is-size-5">
+                                During the early stages of development, I was responsible for handling the player's
+                                class, movement, and collisions with tiles. I then became in charge of developing
+                                enemies. Since this was a project for class, one of the requirements was to create an
+                                external tool that would assist in the development of the game. To meet that
+                                requirement, I created an enemy creator, which included various fields for stats,
+                                sprites, and enemy type. There were two major types of enemies in the game, melee and
+                                ranged. Melee enemies would run straight at the player, while ranged enemies had a
+                                radius from the player they would attempt to stay in. There were three difficulties of
+                                each enemy, and the more dangerous variants would become more common as time progressed.
+                                I had originally wanted to give each enemy their own unique behavior, but time
+                                constraints only allowed for the implementation of the two major behaviors.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Row 3-->
+            <div class="column is-half-desktop has-text-centered">
+                <div class="box is-shadowless has-background-grey-light project-page-content-element">
+                    <div class="hero is-large p-2">
+                        <div class="hero-head">
+                            <div class="py-2 is-size-3 has-text-centered title-font">
+                                Combat
+                            </div>
+                            <p class="is-size-5">
+                                I was also in charge of handling combat and balancing damage values. Tool functionality
+                                was covered by another team member, so I based the combat system off of the tool
+                                swinging mechanic. I gave all tools range, arc, speed, and damage attributes, which were
+                                used to determine whether a swing hit an enemy or not. When hit, enemies would enter a
+                                stunned state, receive knockback, and flash to indicate that they were hit.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="column is-half-desktop has-text-centered">
+                <div class="box is-shadowless has-background-grey-light project-page-content-element">
+                    <div class="hero is-large p-2">
+                        <div class="hero-head">
+                            <div class="py-2 is-size-3 has-text-centered title-font">
+                                Playtesting & Iteration
+                            </div>
+                            <p class="is-size-5">
+                                During the development of Craft-Up, we performed playtests to collect data and improve
+                                our game. We created a survey to collect feedback from playtesters, and I also sat and
+                                observed playtesters, noting initial reactions to mechanics and player instincts. Many
+                                important issues were discovered through this process, and I was able to analyze the
+                                data to reduce the difficulty curve of the game by reducing the numbers and difficulties
+                                of enemies early on.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><!--end of columns-->
+        <div class="project-page-return has-text-centered">
+            <hr class="has-background-primary my-2">
+            <a class="is-size-4" href="../projects.html"><i class="fa-solid fa-arrow-left"></i> Back to Projects</a>
+            <hr class="has-background-primary my-2 mb-6">
+        </div>
+    </main>
+    <footer class="footer-main has-text-centered">
+        <img class="envoy-lay" src="../images/misc/envoy-lay.png" alt="Envoy" />
+        <hr class="has-background-primary socials-line my-2 mt-6">
+        <a class="social-link mx-2" href="mailto:tpa2706@rit.edu" target="_blank"><i
+                class="fa-solid fa-envelope fa-2x"></i></a>
+        <a class="social-link mx-2" href="https://www.linkedin.com/in/thomas-p-anderson/" target="_blank"><i
+                class="fa-brands fa-square-linkedin fa-2x"></i></a>
+        <a class="social-link mx-2" href="https://github.com/atommy126" target="_blank"><i
+                class="fa-brands fa-square-github fa-2x"></i></a>
+        <a class="social-link mx-2" href="https://atommy126.itch.io/" target="_blank"><i
+                class="fa-brands fa-itch-io fa-2x"></i></a>
+        <hr class="has-background-primary socials-line my-2">
+        <p class="size-6">&copy 2025 by Thomas Anderson</p>
+    </footer>
+    <script src="../src/hamburger.js"></script>
+</body>
+
+</html>
