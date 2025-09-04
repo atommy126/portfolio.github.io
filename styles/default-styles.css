@@ -1,0 +1,151 @@
+/*imports*/
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
+
+body
+{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    padding-top: 20px; 
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+nav {
+    margin-top: 0px;
+    margin-left: 0vw;
+    margin-right: 0vw;
+}
+
+footer.footer-main {
+    position: relative;
+    width: 100%;
+    margin-bottom: 10px;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+hr.title-line{
+    height: 2px;
+    margin: 0px;
+    padding: 0px;
+    width: 15.5rem;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.title-font{
+    font-family: "Josefin Sans", sans-serif;
+}
+
+.box{
+    border-radius: 30px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+    min-width: 275px;
+    height: 100%;
+    position: relative;
+}
+
+.card-image .image img{
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+.card-bubble{
+    width:fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+hr.card-line{
+    width: 95%;
+    height: 3px;
+    margin: 0px;
+    padding: 0px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+p.card-title{
+    line-height: 1em;
+}
+
+.card-link{
+    margin-top: auto;
+}
+
+img.envoy-lay{
+    user-select: none;
+    pointer-events: none;
+    z-index: 0;
+    position: absolute;
+    bottom:64px;
+    width:150px;
+    height:auto;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+img.project-page{
+    border-radius: 30px;
+}
+
+img.ward-img{
+    border-radius: 0px;
+}
+
+.project-page-return hr{
+    width:15rem;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+img.crazy-crops-card{
+    width:35%;
+}
+
+.carousel{
+    width: 100%;
+    overflow: hidden;
+}
+
+.carousel-container{
+    display: flex;
+    margin: 0 -8px;
+}
+
+.carousel-slide{
+    flex: 0 0 100%;
+    box-sizing: border-box;
+    padding: 0 8px;
+}
+
+.carousel-column{
+    padding: 0;
+    min-width: 0;
+}
+
+.carousel-button{
+    position: relative;
+    height:33%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.button-column{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a.button{
+    width:27rem;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 1.5rem;
+}
