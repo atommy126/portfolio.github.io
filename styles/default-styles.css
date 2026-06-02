@@ -88,10 +88,10 @@ img.envoy-lay{
     pointer-events: none;
     z-index: 0;
     position: absolute;
-    bottom:64px;
     width:150px;
     height:auto;
     left: 50%;
+    top: 1px;
     transform: translate(-50%, 0);
 }
 
